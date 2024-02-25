@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+/*======================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ope+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1400;1,500;1,600;1,700;1,800&display=swap');
+
+
+@import url('https://fonts.googleapis.comcss2family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;09001,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* fontes */
+    --font01: 'Open Sans', sans-serif; 
+    --font02: 'Roboto', sans-serif;
+    --font03: 'Roboto Slab', serif;
+    --font04: 'Montserrat', sans-serif;
+    /*========*/
+
+    /*cores*/
+    --color01: black;
+    --color01-2: #272727;
+    --color01-3 : #2d2d2d;
+    --color01-4: #414141;
+    --color01-5: #1c1c1c;
+    --color02: white;
+    --color03: #EA020A;
+
+}
+
+
+.conetudo_tamanho1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+}
+
+.div_1_conteudo_tamanho1 {
+    
+    width: 50vw;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+.div_1_conteudo_tamanho1 h2 {
+    color: rgb(0, 0, 0);
+    font-family: var(--font04);
+    z-index: 50;
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.div_1_conteudo_tamanho1 p {
+    font-family: var(--font01);
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+    z-index: 20;
+    margin: auto;
+    
+    
+}
+
+
+.conteudo_informaçoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;    
+
+}
+
+
+.div_informaçoes {
+    display: flex;
+    color: red;
+    font-size: 35px;
+    font-family: var(--font04);
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:768px){
+    .conetudo_tamanho1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .div_1_conteudo_tamanho1 {
+        width: 50vw;
+        background-color: rgb(255, 255, 255);
+    
+    }
+    
+    .div_2_conteudo_tamanho1 {
+        width: 50vw;
+        background-color: rgb(255, 255, 255);
+    
+    }
+    .conteudo_informaçoes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    
+    }
+    
+    .div_informaçoes {
+        color: red;
+        font-size: 50px;
+        font-family: var(--font04);
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+
+.div_2_conteudo_tamanho1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.div_2_conteudo_tamanho1 img {
+    width: 700px;
+    height: 400px;
+}
+
+.div_2_conteudo_tamanho1 .botao_fabrica {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 4px;
+
+}
+
+.div_2_conteudo_tamanho1 .botao_fabrica span {
+   
+    
+    font-family: var(--font01);
+    font-size: uppercase;
+    font-size: 25px;
+    z-index: 50;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px black;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.div_2_conteudo_tamanho1 .botao_fabrica span > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* =========================================================================================================================================================*/
+
+
+.conetudo_tamanho2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
